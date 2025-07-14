@@ -1,0 +1,6 @@
+Reading netlist file: "/media/sf_riscv-ss/src/riscv-ss/impl/gwsynthesis/riscv-ss.vg"
+Parsing netlist file "/media/sf_riscv-ss/src/riscv-ss/impl/gwsynthesis/riscv-ss.vg" completed
+Processing netlist completed
+Reading constraint file: "/media/sf_riscv-ss/src/riscv-ss.cst"
+ERROR  (CT2000) : "/media/sf_riscv-ss/src/riscv-ss.cst":1 | 'syntax error' near token 'G'
+Physical Constraint parsed completed with errors

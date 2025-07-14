@@ -1,0 +1,130 @@
+[
+ {
+  "InstFile" : "/media/sf_riscv-ss/src/CPU.v",
+  "InstLine" : 3,
+  "InstName" : "CPU",
+  "ModuleFile" : "/media/sf_riscv-ss/src/CPU.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "CPU",
+  "SubInsts" : [
+   {
+    "InstFile" : "/media/sf_riscv-ss/src/CPU.v",
+    "InstLine" : 23,
+    "InstName" : "ss",
+    "ModuleFile" : "/media/sf_riscv-ss/src/SingleCycle.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "SingleCycle",
+    "SubInsts" : [
+     {
+      "InstFile" : "/media/sf_riscv-ss/src/SingleCycle.v",
+      "InstLine" : 32,
+      "InstName" : "con",
+      "ModuleFile" : "/media/sf_riscv-ss/src/Control.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "Control"
+     },
+     {
+      "InstFile" : "/media/sf_riscv-ss/src/SingleCycle.v",
+      "InstLine" : 33,
+      "InstName" : "immDec",
+      "ModuleFile" : "/media/sf_riscv-ss/src/ImmediateDecoder.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "ImmediateDecoder"
+     },
+     {
+      "InstFile" : "/media/sf_riscv-ss/src/SingleCycle.v",
+      "InstLine" : 85,
+      "InstName" : "alu",
+      "ModuleFile" : "/media/sf_riscv-ss/src/ALU.v",
+      "ModuleLine" : 20,
+      "ModuleName" : "ALU",
+      "SubInsts" : [
+       {
+        "InstFile" : "/media/sf_riscv-ss/src/ALU.v",
+        "InstLine" : 36,
+        "InstName" : "rs",
+        "ModuleFile" : "/media/sf_riscv-ss/src/Shift.v",
+        "ModuleLine" : 26,
+        "ModuleName" : "Shift",
+        "SubInsts" : [
+         {
+          "InstFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "InstLine" : 57,
+          "InstName" : "[0].rs",
+          "ModuleFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "RightShifter"
+         },
+         {
+          "InstFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "InstLine" : 57,
+          "InstName" : "[1].rs",
+          "ModuleFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "RightShifter"
+         },
+         {
+          "InstFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "InstLine" : 57,
+          "InstName" : "[2].rs",
+          "ModuleFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "RightShifter"
+         },
+         {
+          "InstFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "InstLine" : 57,
+          "InstName" : "[3].rs",
+          "ModuleFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "RightShifter"
+         },
+         {
+          "InstFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "InstLine" : 57,
+          "InstName" : "[4].rs",
+          "ModuleFile" : "/media/sf_riscv-ss/src/Shift.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "RightShifter"
+         }
+        ]
+       },
+       {
+        "InstFile" : "/media/sf_riscv-ss/src/ALU.v",
+        "InstLine" : 37,
+        "InstName" : "ls",
+        "ModuleFile" : "/media/sf_riscv-ss/src/Shift.v",
+        "ModuleLine" : 26,
+        "ModuleName" : "Shift"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/media/sf_riscv-ss/src/SingleCycle.v",
+      "InstLine" : 86,
+      "InstName" : "aluControl",
+      "ModuleFile" : "/media/sf_riscv-ss/src/ALUControl.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "ALUControl"
+     },
+     {
+      "InstFile" : "/media/sf_riscv-ss/src/SingleCycle.v",
+      "InstLine" : 87,
+      "InstName" : "regFile",
+      "ModuleFile" : "/media/sf_riscv-ss/src/RegisterFile.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "RegisterFile"
+     },
+     {
+      "InstFile" : "/media/sf_riscv-ss/src/SingleCycle.v",
+      "InstLine" : 88,
+      "InstName" : "branchLogic",
+      "ModuleFile" : "/media/sf_riscv-ss/src/BranchLogic.v",
+      "ModuleLine" : 33,
+      "ModuleName" : "BranchLogic"
+     }
+    ]
+   }
+  ]
+ }
+]

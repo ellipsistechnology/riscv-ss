@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bmillar/dev/riscv-ss/src/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RightShifter
+INFO: [VRFC 10-311] analyzing module Shift
+INFO: [VRFC 10-311] analyzing module ALUFull
+INFO: [VRFC 10-311] analyzing module ALUControl
+INFO: [VRFC 10-311] analyzing module Control
+WARNING: [VRFC 10-3507] macro 'BRANCH_OP' redefined [C:/Users/bmillar/dev/riscv-ss/src/BranchLogic.v:4]
+INFO: [VRFC 10-311] analyzing module BranchLogic
+INFO: [VRFC 10-311] analyzing module ImmediateDecoder
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module SingleCycle
+INFO: [VRFC 10-311] analyzing module HexTo7seg
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'segs' is not allowed [C:/Users/bmillar/dev/riscv-ss/src/HexTo7seg.v:6]
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/bmillar/dev/riscv-ss/src/HexTo7seg.v:8]
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/bmillar/dev/riscv-ss/riscv-ss-vivado/riscv-ss-vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

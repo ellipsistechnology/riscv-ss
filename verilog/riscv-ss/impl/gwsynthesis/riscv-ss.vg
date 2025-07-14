@@ -1,0 +1,53 @@
+//
+//Written by GowinSynthesis
+//Product Version "V1.9.9 Beta-1"
+//Sun Jun 18 17:30:38 2023
+
+//Source file index table:
+//file0 "\/media/sf_riscv-ss/src/CPU.v"
+`timescale 100 ps/100 ps
+module CPU (
+  sys_clk,
+  sys_rst_n,
+  led
+)
+;
+input sys_clk;
+input sys_rst_n;
+output [5:0] led;
+wire VCC;
+wire GND;
+  OBUF led_0_obuf (
+    .O(led[0]),
+    .I(GND) 
+);
+  OBUF led_1_obuf (
+    .O(led[1]),
+    .I(GND) 
+);
+  OBUF led_2_obuf (
+    .O(led[2]),
+    .I(VCC) 
+);
+  OBUF led_3_obuf (
+    .O(led[3]),
+    .I(VCC) 
+);
+  OBUF led_4_obuf (
+    .O(led[4]),
+    .I(VCC) 
+);
+  OBUF led_5_obuf (
+    .O(led[5]),
+    .I(GND) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* CPU */

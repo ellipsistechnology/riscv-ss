@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/bmillar/dev/riscv-ss/riscv-ss-vivado/riscv-ss-vivado.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/ALUControl.v,1687133867,verilog,,,C:/Users/bmillar/dev/riscv-ss/src/ALUFull.v;C:/Users/bmillar/dev/riscv-ss/src/opcodes.v,ALUControl,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/ALUFull.v,1687133867,verilog,,,C:/Users/bmillar/dev/riscv-ss/src/status.v;C:/Users/bmillar/dev/riscv-ss/src/Shift.v,ALUFull,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/BranchLogic.v,1687305522,verilog,,,C:/Users/bmillar/dev/riscv-ss/src/status.v,BranchLogic,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/CPU.v,1687331992,verilog,,,C:/Users/bmillar/dev/riscv-ss/src/SingleCycle.v;C:/Users/bmillar/dev/riscv-ss/src/HexTo7seg.v,CPU,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/Control.v,1687133867,verilog,,,C:/Users/bmillar/dev/riscv-ss/src/opcodes.v,Control,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/HexTo7seg.v,1687313044,verilog,,,,HexTo7seg,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/ImmediateDecoder.v,1687133867,verilog,,,,ImmediateDecoder,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/RegisterFile.v,1687240899,verilog,,,,RegisterFile,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/Shift.v,1687133867,verilog,,,,RightShifter;Shift,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/SingleCycle.v,1687154570,verilog,,,C:/Users/bmillar/dev/riscv-ss/src/ALUFull.v;C:/Users/bmillar/dev/riscv-ss/src/ALUControl.v;C:/Users/bmillar/dev/riscv-ss/src/Control.v;C:/Users/bmillar/dev/riscv-ss/src/BranchLogic.v;C:/Users/bmillar/dev/riscv-ss/src/ImmediateDecoder.v;C:/Users/bmillar/dev/riscv-ss/src/RegisterFile.v,SingleCycle,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/opcodes.v,1687133867,verilog,,,,,,,,,,,,
+C:/Users/bmillar/dev/riscv-ss/src/status.v,1687133867,verilog,,,,,,,,,,,,
